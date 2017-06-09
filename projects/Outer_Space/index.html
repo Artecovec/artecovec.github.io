@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parallax Scrolling Example</title>
+		<meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/main.css" />
+
+		<script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/parallax.js"></script>
+	</head>
+	
+	
+	<body>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a class="earth" href="#earth">Back Home</a></li>
+                <li><a class="moon" href="#moon">Moon</a></li>
+                <li><a class="rocket" href="#rocket">Space Flight</a></li>
+                <li><a class="saturn" href="#saturn">See the Planets</a></li>
+            </ul>
+        </nav>
+
+        <div id="earth"><img id="img-earth" src="img/earth.png" alt="earth" /></div>
+        <div id="stars"></div>
+        <div id="images">
+            <img id="img-moon" src="img/moon.png" alt="moon" />
+            <img id="img-rocket" src="img/rocket.png" alt="rocket" />
+            <img id="img-saturn" src="img/saturn.png" alt="saturn" />
+        </div><!--end "images"-->
+
+		<div id="content">
+			
+			<article id="home">
+				<h2>Welcome to Outer Space</h2>
+				<p>NASA just made it easier to catch a glimpse of the International Space Station — the largest manmade structure in space — as it soars across the night sky. The best part: no telescope required.</p>
+				<p>The space agency has launched a new free service called "Spot the Station" that allows observers to sign up for e-mail alerts or text messages whenever the space station may be visible overhead, weather permitting. The messages, which will be sent out a few hours before the actual sighting opportunity, are tailored for an observer's location based on their home country, state and city, NASA officials explained in a statement.</p>
+				<p>As the third brightest object in the sky the space station is easy to see if you know where and when to look for it.</p>
+			</article>
+			
+			<article id="moon">
+				<h2>Fly Me to the Moon</h2>
+				<p>Multiple images of the International Space Station flying over the Houston area have been combined into one composite image to show the progress of the station as it crossed the face of the moon in the early evening of Jan. 4, 2012.</p>
+			</article>
+			
+			<article id="rocket">
+				<h2>Rocket Man</h2>
+				<p>Station sighting opportunities from 4,600 locations around the world are identified twice a week at NASA's space station Mission Control Center at the Johnson Space Center in Texas.</p>
+			</article>
+			
+			<article id="saturn">
+				<h2>See the Planets</h2>
+				<p>You can also find real-time satellite tracking information, including spacecraft locations over Earth at any time of day, at <a href="http://www.n2yo.com/?s=25544">this website.</a></p>
+			</article>
+			
+		</div><!-- end "content" -->
+	</body>
+</html>
